@@ -1,0 +1,169 @@
+.top1{
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgb(204, 203, 203);
+
+  .top1-text{
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .top1-icon{
+    background-color: rgb(222, 217, 217);
+    padding: 0.2rem 0.6rem;
+    border-radius: 15rem;
+  }
+}
+
+// .top2{
+  /* src/components/ProgressBar.css */
+
+.top2 {
+  display: flex;
+  justify-content: space-between; /* Space out steps evenly */
+  align-items: center; /* Align items in the center horizontally */
+  // width: 100%;
+  // max-width: 900px; 
+  margin: 2rem 7rem;
+}
+
+.step {
+  display: flex;
+  flex-direction: column; /* Align icons and text vertically within each step */
+  align-items: center;
+  text-align: center; /* Center the text */
+}
+
+.step.completed .icon {
+  color: #00cc6a; /* green check color */
+}
+
+.step.active .icon {
+  color: #0066ff; /* blue color for active icon */
+}
+
+.step .icon {
+  font-size: 28px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 180px;
+  height: 2px;
+  background-color: #e0e0e0;
+  margin-bottom: 2.5rem;
+}
+
+.line.active {
+  background-color: #0066ff; /* blue color for active line */
+}
+
+.step p {
+  margin: 10px 0 5px 0;
+  font-size: 12px;
+  color: #999;
+}
+
+.step h4 {
+  font-size: 14px;
+  color: #333;
+}
+
+.step.completed h4,
+.step.active h4 {
+  font-weight: bold;
+  color: #000;
+}
+
+// }
+
+
+.top3{
+  /* src/components/MedicalService.scss */
+
+.medical-service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.notification-banner {
+  display: flex;
+  align-items: center;
+  background-color: #f0f4ff;
+  border-radius: 10px;
+  padding: 7px 4rem;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  // width: 100%;
+  max-width: 950px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-icon {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 10px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.progress-indicator {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #999;
+}
+
+.circle.filled {
+  // background-color: #000;
+  // color: white;
+  border-color: #000;
+}
+
+.line {
+  width: 40px;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+
+.content-section {
+  text-align: center;
+}
+
+.content-section h2 {
+  font-size: 22px;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.content-section p {
+  font-size: 16px;
+  color: #999;
+}
+
+}

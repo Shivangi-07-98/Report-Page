@@ -1,0 +1,96 @@
+/* src/components/BottomNavigation.scss */
+
+.bottom-nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.indicator-section {
+  // background-color: #f8f8f8;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.indicator {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.indicator span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.red-dot {
+  background-color: red;
+}
+
+.blue-dot {
+  background-color: blue;
+}
+
+.yellow-dot {
+  background-color: #ffa500; /* Orange */
+}
+
+.indicator p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+}
+
+.cancel-btn,
+.previous-btn,
+.next-btn {
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  font-weight: 500;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.cancel-btn {
+  color: #333;
+  border: none;
+  // margin: 0;
+  // padding: 0;
+}
+
+.previous-btn {
+  color: #333;
+  border: 1px solid #666;
+}
+
+.next-btn {
+  color: white;
+  background-color: #0066ff;
+  border: none;
+}
+
+.previous-btn:hover,
+.cancel-btn:hover,
+.next-btn:hover {
+  opacity: 0.9;
+}
