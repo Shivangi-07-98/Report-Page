@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './Page.scss';
-import Top from './Top';
+import Top from '../Top/Top';
 import { ReactComponent as Teeth } from './teeth.svg'; // Ensure SVG has class attributes
-import Bottom from './Bottom';
-import ToothForm from './ToothForm';
+import Bottom from '../Bottom/Bottom';
+import ToothForm from '../ToothForm/ToothForm';
 
 const teethData = {
   11: 'Central Incisor',
